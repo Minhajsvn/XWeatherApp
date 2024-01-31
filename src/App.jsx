@@ -60,9 +60,7 @@ function App() {
               <p>{data.current.wind_kph} kph</p>
             </div>
           </div> : loading ? 
-              <div>
-                <p>Loading Data...</p>
-              </div> : ""}
+                <p>Loading Data...</p>: ""}
     </>
   )
 }
