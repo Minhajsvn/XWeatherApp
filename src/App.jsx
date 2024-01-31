@@ -42,7 +42,7 @@ function App() {
         <button onClick={handleSubmit}>Submit</button>
       </div>
       {data ? 
-          <div className="weather-data">
+          <div className="weather-cards">
             <div className="weather-card">
               <h3>Temperature</h3>
               <p>{data.current.temp_c}°C</p>
@@ -60,7 +60,7 @@ function App() {
               <p>{data.current.wind_kph} kph</p>
             </div>
           </div> : loading ? 
-                <p>Loading Data...</p>: ""}
+                <p>Loading data...</p>: ""}
     </>
   )
 }

@@ -11,7 +11,7 @@
 .weather-data.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-.weather-data{
+.weather-cards{
   display: flex;
   align-items: center;
   justify-content: center;
